@@ -1,5 +1,5 @@
 ## Interface: 110100
-## Title: Gather Hero
+## Title: Gather Hero Fixed
 ## Notes: Displays gold earned from gathering professions with floating text and session tracker.
 ## Author: EvilDrPorkChop
 ## Version: 1.1.1
