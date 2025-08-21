@@ -2,7 +2,7 @@
 
 **Original Addon:** [Gather Hero by Neffy_wow](https://www.curseforge.com/wow/addons/gather-hero)  
 **License:** MIT  
-**Maintained by:** EvilDrkPorkChop
+**Maintained by:** EvilDrPorkChop
 
 ## Overview
 
@@ -21,13 +21,13 @@ This fork fixes critical issues in the original version, including:
 
 ## Changelog
 
-### v1.0.1 - Fixed Fork
+### v1.1.1 - Fixed Fork
 
 - Fixed database initialization errors.
 - Fixed parsing of `CHAT_MSG_LOOT` and other WoW event messages.
 - Improved overall stability.
 
-### v1.0.0 - Original Version
+### v1.1.0 - Original Version
 
 - Initial release by Neffy_wow.
 
