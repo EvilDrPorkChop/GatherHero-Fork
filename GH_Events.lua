@@ -8,7 +8,6 @@ local hasInitialized = false
 
 -- Register events and initialize addon
 local function OnEvent(self, event, ...)
-  print("GH Event fired:", event, ...)
   if event == "ADDON_LOADED" and ... == addonName then
     -- Addon loaded
   elseif event == "CHAT_MSG_LOOT" then

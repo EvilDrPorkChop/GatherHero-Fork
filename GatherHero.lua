@@ -659,10 +659,8 @@ function GH:ProcessLootMessage(msg)
 
   -- Extract item link using a more reliable pattern
   local itemLink = string.match(msg, "|Hitem:[^|]+|h%[[^%]]+%]|h")
-  print("New Detected itemLink:", itemLink)
   local count = string.match(msg, "x(%d+)") or "1"
   count = tonumber(count)
-  print("Detected count:", count)
   if not itemLink then
     self:DebugLoot("No item link found with primary pattern, trying alternate")
     -- Try a different pattern that might work better with WoW 11.1.0
