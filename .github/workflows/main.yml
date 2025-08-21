@@ -3,7 +3,10 @@ name: Package and Release Addon
 on:
   push:
     tags:
-      - 'v*'   # Runs only when you push a version tag like v1.0.1
+      - "v*" # Runs only when you push a version tag like v1.0.1
+
+permissions:
+  contents: write
 
 jobs:
   build:
