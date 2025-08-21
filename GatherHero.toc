@@ -1,8 +1,8 @@
 ## Interface: 110100
 ## Title: Gather Hero
 ## Notes: Displays gold earned from gathering professions with floating text and session tracker.
-## Author: Neffy
-## Version: 1.1
+## Author: EvilDrPorkChop
+## Version: 1.1.1
 ## SavedVariables: GatherHeroDB
 ## Dependencies: TradeSkillMaster
 ## LoadOnDemand: 0
