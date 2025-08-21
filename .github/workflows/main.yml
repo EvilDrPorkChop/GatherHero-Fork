@@ -1,0 +1,25 @@
+name: Package and Release Addon
+
+on:
+  push:
+    tags:
+      - 'v*'   # Runs only when you push a version tag like v1.0.1
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Zip Addon
+        run: |
+          cd GatherHero
+          zip -r ../GatherHero.zip ./*
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: GatherHero.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
